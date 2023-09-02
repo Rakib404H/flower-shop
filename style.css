@@ -139,46 +139,111 @@ body {
     text-align: center;
 
 }
+
 /* discount,,,,,,,,,,,,,,,, */
-.discount-title{
+.discount-title {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
 }
-.off{
+
+.off {
     color: #E55473;
 }
-.discount-description{
+
+.discount-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     margin: 30px;
 }
-.discount-container{
+
+.discount-container {
     display: flex;
     justify-content: center;
     gap: 185px;
     align-items: center;
     padding: 100px 400px;
 }
-.discount-left{
+
+.discount-left {
     text-align: center;
     display: block;
-    
+
 }
-.discount-section{
+
+.discount-section {
     border-radius: 8px;
-background: rgba(229, 84, 115, 0.05);
-margin: 130px 0;
+    background: rgba(229, 84, 115, 0.05);
+    margin: 130px 0;
 }
+
 /* instagram,,,,,,,,,,,,,,,,,, */
-.instagram-title{
+.instagram-title {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
 }
-.instagram{
+
+.instagram {
     display: block;
     text-align: center;
+}
+
+.instagram-images {
+    display: flex;
+    gap: 25px;
+    height: 100%;
+}
+
+.insta-sec {
+    padding: 0 250px;
+}
+.subscribe-btn input{
+    padding: 20px;
+    width: 30%;
+    border-radius: 8px;
+background: #FFF;
+border: none;
+}
+.subscribe-section{
+    background-image: url('/resources/Rectangle9.png');
+    margin: 130px 250px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    border-radius: 8px;
+}
+.subscribe-btn{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.subscribe-text{
+    text-align: center;
+}
+/* footer,,,,,,,,,, */
+.footer{
+    text-align: center;
+    background: #111010;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+.footer-title{
+    font-size: 48px;
+    font-weight: 800;
+    color: #FFF;
+}
+.footer-title span{
+    color: #E55473;
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
 }
