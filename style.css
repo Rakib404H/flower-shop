@@ -21,9 +21,9 @@ body {
 /* header section,,,,,,,,,,,,,,,,,, */
 .header-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 50px 240px 0;
+    padding: 50px 240px 50px;
     background: rgba(229, 84, 115, 0.10);
 }
 
@@ -161,8 +161,8 @@ body {
 
 .discount-container {
     display: flex;
-    justify-content: center;
-    gap: 185px;
+    justify-content: space-between;
+    gap: 50px;
     align-items: center;
     padding: 100px 400px;
 }
