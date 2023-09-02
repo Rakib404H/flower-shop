@@ -7,15 +7,17 @@ body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
-.btn-primary{
+
+.btn-primary {
     padding: 20px 40px;
     border-radius: 8px;
-background: #E55473;
-font-size: 20px;
-font-weight: 700;
-color: #FFF;
-border: none;
+    background: #E55473;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFF;
+    border: none;
 }
+
 /* header section,,,,,,,,,,,,,,,,,, */
 .header-container {
     display: flex;
@@ -40,6 +42,100 @@ border: none;
     padding-top: 32px;
     padding-bottom: 32px;
 }
-.header-image img{
+
+.header-image img {
     width: 635px;
+}
+
+/* feature section,,,,,,,,,,,,,,,,,,,, */
+.feature-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 170px;
+    margin-bottom: 130px;
+
+}
+
+.feature-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.feature-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.photo-column1 {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.photo-column2 {
+    background: rgba(5, 151, 160, 0.15);
+    1x
+}
+
+.photo-column3 {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.photo-column1,
+.photo-column2,
+.photo-column3 {
+    border-radius: 300px 300px 0px 0px;
+    height: 550px;
+    width: 450px;
+
+
+}
+
+.feature-photos {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    align-items: center;
+}
+
+.feature-photos img {
+    margin: 50px;
+
+}
+
+.img-caption {
+    margin-top: 30px;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+/* delivery */
+.delivery-description {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    margin-top: 25px;
+}
+
+.delivery {
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    padding: 85px 150px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 0 250px;
+}
+
+.delivery-column {
+    text-align: center;
+
 }
