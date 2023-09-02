@@ -193,7 +193,8 @@ body {
 
 .instagram-images {
     display: flex;
-    gap: 25px;
+    justify-content: center;
+    gap: 20px;
     height: 100%;
 }
 
